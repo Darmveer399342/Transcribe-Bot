@@ -13,9 +13,9 @@ from pyromod import listen
 
 r = sr.Recognizer()
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-API_ID = os.environ.get("API_ID")
-API_HASH = os.environ.get("API_HASH")
+BOT_TOKEN = os.environ.get("BOT_TOKEN","28579758")
+API_ID = os.environ.get("API_ID", "7405875426:AAEtNzLwhC5W1ahimjlgmeQz716yCqsaBXE")
+API_HASH = os.environ.get("API_HASH", "dbfa5ccad92631c264fa4c5f3720795f")
 
 Bot = Client(
     "TranscribeBot",
